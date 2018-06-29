@@ -1,0 +1,43 @@
+.header {
+  height: 150px;
+  align-items: center;
+  justify-content: space-around;
+  background-size: auto 100%;
+  background-position: left top;
+
+  @include md-down {
+    height: 200px;
+  }
+
+  &--title {
+    @include font-size(30px);
+    font-weight: bold;
+    color: $color-header-title;
+
+    @include  sm-up {
+      @include font-size(40px);
+    }
+
+    @include md-up {
+      @include font-size(50px);
+    }
+  }
+
+  &--btn-ctn {
+    text-align: center;
+  }
+
+  .action-btn {
+    cursor:pointer;
+    height: 80px;
+
+    @include sm-down {
+      width: 70%;
+    }
+
+    @include sm-up {
+      width: 65%;
+    }
+  }
+
+}

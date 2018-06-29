@@ -1,0 +1,20 @@
+.beer-overview {
+  min-height: 100vh;
+  background-color: $color-secondly;
+
+  &--main {
+    margin-top: 40px;
+
+    @include sm-down {
+      margin-top: 0;
+    }
+
+    @include lg-up {
+      margin-top: 60px;
+    }
+  }
+
+  .action-btn {
+    @include button-primary($color-primary);
+  }
+}

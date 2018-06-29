@@ -1,0 +1,45 @@
+/************************
+Colors
+************************/
+
+$color-white: #FFF;
+$color-black: #000;
+$color-dark-blue: #2C2C3D;
+
+$color-sunflower-1: #FBD277;
+$color-sunflower-2: #FDCD56;
+$color-sunflower-3: #FEC208;
+
+$color-grass-1: #B4DF80;
+$color-grass-2: #9ED26A;
+$color-grass-3: #00B16A;
+
+$color-grape-fruit-1: #E54D2E;
+$color-grape-fruit-2: #BE3012;
+$color-grape-fruit-3: #971B00;
+
+$color-light-gray-1: #F2F4F7;
+$color-light-gray-2: #E0E4E8;
+$color-light-gray-3: #C3C9D2;
+
+$color-dark-gray-1: #9FA6B3;
+$color-dark-gray-2: #58616C;
+$color-dark-gray-3: #3A3F49;
+
+
+/************************
+Colour aliases
+************************/
+$color-primary: $color-grass-3;
+$color-secondly: $color-sunflower-3;
+
+$color-link: $color-grape-fruit-1;
+$color-header-title: $color-dark-blue;
+$color-disabled: $color-dark-gray-1;
+$color-text-disabled: $color-dark-gray-1;
+
+$color-border: $color-light-gray-3;
+$color-border-transparent: rgba($color-white, 0.3);
+
+
+
